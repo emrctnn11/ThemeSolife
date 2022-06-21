@@ -84,6 +84,7 @@
                                     <th>SPONSOR ID</th>
                                     <th>İL</th>
                                     <th>GSM</th>
+
                                 </tr>
                                 </tfoot>
                             </table>

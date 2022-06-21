@@ -15,13 +15,18 @@
   <link rel="stylesheet" type="text/css" href="{{asset('assets/css/chartist.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('assets/css/prism.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('assets/css/owlcarousel.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/css/swiper-bundle.min.css')}}">
+
+  <style>
+
+  </style>
 @endpush
     @section('content')
       @yield('breadcrumb-list')
       <!-- Container-fluid starts-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-8 box-col-12 des-xl-100">
+            <div class="col-xl-8 box-col-12 order-sm-1 des-xl-100">
               <div class="row">
                 <div class="col-12 col-xl-6">
                   <div class="card default-card latest-update-sec">
@@ -34,7 +39,6 @@
                                   <div class="media-body media-header"><span class="media-header-span">Unilevel Ağacı</span></div>
                                   <td class="col-6">
                                       <div class="media media-border">
-                                          <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=YC" alt="">
                                           <div class="media-body"><span>Yıllık Ciro</span>
                                               <p>200.000<span>₺</span></p>
                                           </div>
@@ -42,7 +46,6 @@
                                   </td>
                                   <td>
                                       <div class="media col-6">
-                                          <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=AC" alt="">
                                           <div class="media-body"><span>Aylık Ciro</span>
                                               <p>200.000<span>₺</span></p>
                                           </div>
@@ -52,7 +55,6 @@
                               <tr>
                                   <td>
                                       <div class="media media-border">
-                                          <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=SL" alt="">
                                           <div class="media-body"><span>Sol Kol</span>
                                               <p>200</p>
                                           </div>
@@ -60,7 +62,6 @@
                                   </td>
                                   <td class="col-6">
                                       <div class="media col-6">
-                                          <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=SG" alt="">
                                           <div class="media-body"><span style="white-space: nowrap;">Sağ Kol</span>
                                               <p>200</p>
                                           </div>
@@ -70,7 +71,6 @@
                               <tr>
                                   <td>
                                       <div class="media media-border">
-                                          <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=AĞ" alt="">
                                           <div class="media-body"><span>Ağacımdakiler</span>
                                               <p>200</p>
                                           </div>
@@ -78,7 +78,6 @@
                                   </td>
                                   <td class="col-6">
                                       <div class="media col-6">
-                                          <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=ÜS" alt="">
                                           <div class="media-body"><span style="white-space: nowrap;">Üye Siparişi</span>
                                               <p>200</p>
                                           </div>
@@ -101,7 +100,6 @@
                                     <div class="media-body media-header"><span class="media-header-span">Verilerim</span></div>
                                     <td class="col-6">
                                         <div class="media media-border">
-                                            <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=AB" alt="">
                                             <div class="media-body"><span>Aktif Bayiler</span>
                                                 <p>203</p>
                                             </div>
@@ -109,7 +107,6 @@
                                     </td>
                                     <td>
                                         <div class="media col-6">
-                                            <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=PB" alt="">
                                             <div class="media-body"><span>Pasif Bayiler</span>
                                                 <p>213</p>
                                             </div>
@@ -119,7 +116,6 @@
                                 <tr>
                                     <td class="col-6">
                                         <div class="media media-border">
-                                            <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=ST" alt="">
                                             <div class="media-body"><span>Sipariş Tutarı</span>
                                                 <p>200.000<span>₺</span></p>
                                             </div>
@@ -127,7 +123,6 @@
                                     </td>
                                     <td>
                                         <div class="media col-6">
-                                            <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=SA" alt="">
                                             <div class="media-body"><span>Sipariş Adeti</span>
                                                 <p>200</p>
                                             </div>
@@ -137,7 +132,6 @@
                                 <tr>
                                     <td class="col-6">
                                         <div class="media media-border">
-                                            <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=ST" alt="">
                                             <div class="media-body"><span>Güncel Kazanç</span>
                                                 <p>200.000<span>₺</span></p>
                                             </div>
@@ -145,7 +139,6 @@
                                     </td>
                                     <td>
                                         <div class="media col-6">
-                                            <img src="https://ui-avatars.com/api/?background=0c5460&color=fff&size=128&bold=true&name=SA" alt="">
                                             <div class="media-body"><span>Toplam Kazanç</span>
                                                 <p>432.392<span>₺</span</p>
                                             </div>
@@ -165,27 +158,25 @@
                           <div class="card-header pb-0">
                           </div>
                           <div class="card-body">
-                              <div class="owl-carousel owl-theme" id="owl-carousel-14">
-                                  <div class="item">
+                              <div class="swiper mySwiper">
+                                  <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
                                       <div class="row">
                                           <div class="col-12">
                                                 <div class="header-top d-sm-flex justify-content-between slider-header align-items-center">
                                                     <h5>Ayın Bayileri</h5>
-                                                    <div class="center-content">
-                                                        <p class="d-sm-flex align-items-center"><span class="m-r-10">Ayın Ürünleri</span><i class="toprightarrow-primary fa fa-arrow-up m-r-10"></i></p>
-                                                    </div>
                                                 </div>
-                                              <div class="owl-carousel-16 owl-carousel owl-theme">
-                                                  <div class="item">
+                                              <div class="row">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard-2/1.png')}}" alt="...">
                                                               <h6>Eda Gires</h6>
                                                               <a class="btn btn-rounded" href="#">Detaylar</a>
-                                                      </div>
+                                                          </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard-2/8.png')}}" alt="...">
@@ -194,7 +185,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard-2/3.png')}}" alt="...">
@@ -203,7 +194,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard-2/4.png')}}" alt="...">
@@ -212,11 +203,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                              </div>
-                                          </div>
-                                          <div class="col-12">
-                                              <div class="owl-carousel-16 owl-carousel owl-theme">
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard-2/5.png')}}" alt="...">
@@ -225,7 +212,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard-2/6.png')}}" alt="...">
@@ -234,39 +221,18 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
-                                                      <div class="card">
-                                                          <div class="top-dealerbox text-center">
-                                                              <img class="card-img-top" src="{{asset('assets/images/dashboard-2/7.png')}}" alt="...">
-                                                              <h6>Lale Su</h6>
-                                                              <a class="btn btn-rounded" href="#">Detaylar</a>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="item">
-                                                      <div class="card">
-                                                          <div class="top-dealerbox text-center">
-                                                              <img class="card-img-top" src="{{asset('assets/images/dashboard-2/8.png')}}" alt="...">
-                                                              <h6>Serpil Suan</h6>
-                                                              <a class="btn btn-rounded" href="#">Detaylar</a>
-                                                          </div>
-                                                      </div>
-                                                  </div>
                                               </div>
                                           </div>
                                       </div>
                                   </div>
-                                  <div class="item">
+                                      <div class="swiper-slide">
                                       <div class="row">
                                           <div class="col-12">
                                             <div class="header-top d-sm-flex slider-header justify-content-between align-items-center">
-                                                <div class="center-content">
-                                                    <p class="d-sm-flex align-items-center"><span class="m-r-10">Ayın Bayileri</span><i class="toprightarrow-primary fa fa-arrow-left m-r-10"></i></p>
-                                                </div>
                                                 <h5 style="margin-right: 40px">Ayın Ürünleri</h5>
                                             </div>
-                                              <div class="owl-carousel-16 owl-carousel owl-theme">
-                                                  <div class="item">
+                                              <div class="row">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard/product-1.png')}}" alt="...">
@@ -275,7 +241,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard/product-2.png')}}" alt="...">
@@ -284,7 +250,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard/product-3.png')}}" alt="...">
@@ -293,7 +259,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard/product-3.png')}}" alt="...">
@@ -302,11 +268,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                              </div>
-                                          </div>
-                                          <div class="col-12">
-                                              <div class="owl-carousel-16 owl-carousel owl-theme">
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard/product-4.png')}}" alt="...">
@@ -315,7 +277,7 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
+                                                  <div class="col-6 col-md-4">
                                                       <div class="card">
                                                           <div class="top-dealerbox text-center">
                                                               <img class="card-img-top" src="{{asset('assets/images/dashboard/product-5.png')}}" alt="...">
@@ -324,35 +286,21 @@
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="item">
-                                                      <div class="card">
-                                                          <div class="top-dealerbox text-center">
-                                                              <img class="card-img-top" src="{{asset('assets/images/dashboard/product-1.png')}}" alt="...">
-                                                              <h6>Kulaklık</h6>
-                                                              <a class="btn btn-rounded" href="#">Detaylar</a>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="item">
-                                                      <div class="card">
-                                                          <div class="top-dealerbox text-center">
-                                                              <img class="card-img-top" src="{{asset('assets/images/dashboard/product-2.png')}}" alt="...">
-                                                              <h6>Ürün Adı</h6>
-                                                              <a class="btn btn-rounded" href="#">Detaylar</a>
-                                                          </div>
-                                                      </div>
-                                                  </div>
                                               </div>
                                           </div>
+
                                       </div>
                                   </div>
+                                  </div>
+                                  <div class="swiper-button-next swiper-button-both"></div>
+                                  <div class="swiper-button-prev swiper-button-both"></div>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
             </div>
-            <div class="col-xl-4 box-col-12 des-xl-100">
+            <div class="col-xl-4 box-col-12 order-sm-2 order-first des-xl-100">
               <div class="row">
                 <div class="col-12 col-xl-12">
                   <div class="row">
@@ -361,8 +309,8 @@
                               <div class="card-header pb-0">
                                 <div class="txn-history">
                                   <p><b>CÜZDANIM</b></p>
-                                  <p class="txn-list">Kullanılabilir Bakiyem<span class="debit-amount">100₺</span></p>
-                                  <h6 class="txn-puan">PUANIM<span class="debit-amount">2450</span></h6>
+                                  <p class="txn-list" style="padding-right: 17px">Kullanılabilir Bakiyem<span class="debit-amount">100₺</span></p>
+                                  <h6 class="txn-puan" style="padding-right: 17px">PUANIM<span class="debit-amount">2450</span></h6>
                                   <i class="icon-wallet wallettrans"></i>
                                 </div>
                               </div>
@@ -391,9 +339,6 @@
                       <div class="card-header">
                         <div class="header-top">
                         </div>
-                      </div>
-                      <div class="card-body text-center p-t-0">
-                        <h3 class="font-light">BANNER ALANI</h3>
                       </div>
                       <div class="confetti">
                         <div class="confetti-piece"></div>
@@ -437,5 +382,25 @@
             <script src="{{asset('assets/js/owlcarousel/owl.carousel.js')}}"></script>
             <script src="{{asset('assets/js/owlcarousel/owl-custom.js')}}"></script>
             <script src="{{asset('assets/js/dashboard/dashboard_2.js')}}"></script>
+            <script src="{{asset('assets/js/swiperjs/swiper-bundle.min.js')}}"></script>
+
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 4500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
 @endpush
 @endsection

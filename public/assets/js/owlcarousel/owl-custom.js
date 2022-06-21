@@ -250,12 +250,14 @@ var owl_carousel_custom = {
             items:4,
             margin:10,
             autoHeight:true,
+            autoWidth: false,
             nav: false,
             dots: false,
-            responsive:{               
+            responsive:{
                 320:{
                     items:2,
                     mergeFit:true,
+
                 },
                 480:{
                     items:3,

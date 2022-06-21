@@ -9,18 +9,18 @@
                     </li>
                     <li class="sidebar-main-title">
                         <div>
-                            <h6>NETWORK MENU</h6>
+                            <h6><a href="#">Özet Ekranı</a> </h6>
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-group"></i><span>MÜŞTERİ YÖNETİMİ</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-group"></i><span class="sidebar-span">MÜŞTERİ YÖNETİMİ</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('datatable-ext-responsive')); ?>" class="<?php echo e(routeActive('datatable-ext-responsive')); ?>">Müşterilerim</a></li>
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Adaylarım</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-sitemap"></i><span>AĞAÇ YÖNETİMİ</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-sitemap"></i><span class="sidebar-span">AĞAÇ YÖNETİMİ</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Binary Ağacı</a></li>
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Unilevel Ağacı</a></li>
@@ -28,7 +28,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-building"></i><span>BAYİ YÖNETİMİ</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-building"></i><span class="sidebar-span">BAYİ YÖNETİMİ</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('form-validation')); ?>" class="<?php echo e(route('form-validation')); ?>">Yeni Bayi Kaydı</a></li>
                             <li><a href="<?php echo e(route('form-wizard')); ?>" class="<?php echo e(route('form-wizard')); ?>">Bayilerim</a></li>
@@ -36,7 +36,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-exchange"></i><span>KAZANÇ YÖNETİMİ</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-exchange"></i><span class="sidebar-span">KAZANÇ YÖNETİMİ</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('form-wizard-two')); ?>" class="<?php echo e(route('form-wizard-two')); ?>">Gelirler</a></li>
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Puanlar</a></li>
@@ -44,20 +44,16 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-sliders"></i><span>KARİYER İŞLEMLERİ</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-sliders"></i><span class="sidebar-span">KARİYER İŞLEMLERİ</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Kariyer</a></li>
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Kariyer Göstergesi</a></li>
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Kariyer Hacmi</a></li>
                         </ul>
                     </li>
-                    <li class="sidebar-main-title">
-                        <div>
-                            <h6><a href="#">Özet Ekranı</a> </h6>
-                        </div>
-                    </li>
+
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class=" fa fa-shopping-basket"></i><span>SİPARİŞLERİM</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class=" fa fa-shopping-basket"></i><span class="sidebar-span">SİPARİŞLERİM</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Siparişlerim</a></li>
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Üyelerin Siparişleri</a></li>
@@ -65,7 +61,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-suitcase"></i><span>CÜZDAN</span></a>
+                        <a class="nav-link menu-title" href="javascript:void(0)"><i class="fa fa-suitcase"></i><span class="sidebar-span">CÜZDAN</span></a>
                         <ul class="nav-submenu menu-content">
                             <li><a href="<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Hesap Hareketleri</a></li>
                             <li><a href=<?php echo e(route('state-color')); ?>" class="<?php echo e(route('state-color')); ?>">Ödeme Talebi</a></li>
@@ -75,7 +71,7 @@
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav " href="<?php echo e(route('state-color')); ?>">
                             <i class="fa fa-archive"></i>
-                            <span>PAKET GRUPLARI</span>
+                            <span class="sidebar-span">PAKET GRUPLARI</span>
                             <div class="according-menu">
 
                             </div>
@@ -84,7 +80,7 @@
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav " href="<?php echo e(route('state-color')); ?>">
                             <i class="fa fa-cube"></i>
-                            <span>ÜRÜNLER</span>
+                            <span class="sidebar-span">ÜRÜNLER</span>
                             <div class="according-menu">
 
                             </div>
@@ -93,7 +89,7 @@
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav " href="<?php echo e(route('state-color')); ?>">
                             <i class="fa fa-code-fork"></i>
-                            <span>BAYİ HARİTASI</span>
+                            <span class="sidebar-span">BAYİ HARİTASI</span>
                             <div class="according-menu">
 
                             </div>
@@ -102,7 +98,7 @@
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav " href="<?php echo e(route('state-color')); ?>">
                             <i class="fa fa-eur"></i>
-                            <span>KAZANÇ AÇIKLAMALARI</span>
+                            <span class="sidebar-span">KAZANÇ AÇIKLAMALARI</span>
                             <div class="according-menu">
 
                             </div>
@@ -119,7 +115,7 @@
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav " href="<?php echo e(route('state-color')); ?>">
                             <i class="fa fa-random"></i>
-                            <span>SİPARİŞ TAKİBİ</span>
+                            <span class="sidebar-span">SİPARİŞ TAKİBİ</span>
                             <div class="according-menu">
 
                             </div>
@@ -128,7 +124,7 @@
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav " href="<?php echo e(route('state-color')); ?>">
                             <i class="fa fa-share"></i>
-                            <span>PAYLAŞ</span>
+                            <span class="sidebar-span">PAYLAŞ</span>
                             <div class="according-menu">
 
                             </div>

@@ -3361,6 +3361,11 @@
     height: calc(100vh - 50px);}
 }
 
+@media screen and (max-width: 870px) {
+    .page-wrapper.compact-wrapper .page-body-wrapper header.main-nav.close_icon {
+        width: 0px;}
+}
+
 /**=====================
      62. Responsive CSS Ends
 ==========================**/

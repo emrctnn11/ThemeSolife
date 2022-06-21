@@ -10,7 +10,7 @@
     </div>
     <div class="nav-right col pull-right right-menu p-0">
       <ul class="nav-menus">
-        <div class="notification-box col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block d-md-none searchMobile"><a class="btn" type="button"><i class="marketlink md-block d-none" data-feather="shopping-cart"></i>11h 10g 11s</a></div>
+        <div class="notification-box col-sm-8 col-md-6 col-lg-5 col-xl-3 d-block d-md-none searchMobile"><a class="btn" type="button"><i class="marketlink md-block d-none" data-feather="shopping-cart"></i>Aktiflik: 11h 10g 11s</a></div>
         <li class="onhover-dropdown">
           <i class="fa fa-search searchicon"></i>
           <div class="bookmark-dropdown onhover-show-div">
@@ -113,7 +113,7 @@
                 <img class="img-90 rounded-circle" src="<?php echo e(asset('assets/images/dashboard/1.png')); ?>" alt="" />
                 <div class="badge-bottom"><span class="badge badge-primary">eMc</span></div>
                 <a href="user-profile"> <h6 class="mt-3 f-14 f-w-600">Emre Çetin</h6></a>
-                  <div class="notification-box d-none d-md-block"><a class="btn">11h 10g 11s</a></div>
+                  <div class="notification-box d-none d-md-block"><a class="btn">Aktiflik: 11h 10g 11s</a></div>
               </div>
 
               <ul>

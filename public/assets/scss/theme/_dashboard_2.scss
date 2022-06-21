@@ -37,13 +37,13 @@
       margin-bottom:15px;
     }
     .top-dealerbox {
-      padding:20px;    
+      padding:20px;
       h6 {
         font-size: 13px;
         font-weight: 600;
       }
       p {
-        font-size:11px;   
+        font-size:11px;
         font-family:$font-roboto;
         margin-bottom:12px;
         color: $light-text;
@@ -52,20 +52,20 @@
         padding:8px 10px;
         background-color:rgba($primary-color,0.1);
         color:$primary-color;
-        font-size:11px; 
+        font-size:11px;
         font-weight:400;
         border-radius:15px;
-        font-family:$font-roboto; 
-        line-height:1;    
+        font-family:$font-roboto;
+        line-height:1;
       }
       &:hover{
-        background-color:$white;        
+        background-color:$white;
         .btn{
           background-color:$primary-color;
           color:$white;
         }
       }
-    }   
+    }
   }
   .owl-theme {
     .owl-nav{
@@ -92,7 +92,7 @@
       img{
         transition: all 3s ease;
       }
-      .btn{       
+      .btn{
         &:hover{
           i{
             &:before{
@@ -110,12 +110,12 @@
         }
         p{
           margin-bottom:5px;
-        } 
+        }
       }
       &:hover{
         img{
           transform:rotate(-26deg);
-          
+
         }
       }
     }
@@ -159,7 +159,7 @@
           }
         }
         &:first-child {
-          background-color:rgba($primary-color, 0.05); 
+          background-color:rgba($primary-color, 0.05);
           &:hover{
             background-color:$primary-color;
           }
@@ -196,7 +196,7 @@
   .card-body{
     .traget-img-sec{
       width: 100%;
-      background-image: url('../images/dashboard-2/target1.png');
+      background-image: url(https://admin.pixelstrap.com/viho/assets/images/dashboard-2/target1.png);
       height: 415px;
       background-position:center;
       background-size: cover;
@@ -213,10 +213,10 @@
       left: 75px;
       position: absolute;
       animation: star 5s linear infinite;
-      
+
     }
     .close2{
-      bottom: 31%;   
+      bottom: 31%;
       right: 8%;
       animation: star 7s linear infinite;
     }
@@ -240,7 +240,7 @@
     }
     .circle2{
       bottom: 45%;
-      right: 30%;  
+      right: 30%;
       animation: move2 1.4s infinite alternate;
     }
     .circle3{
@@ -318,7 +318,7 @@
                 margin-left: 20px;
               }
               &:hover{
-                img{                 
+                img{
                   animation:tada 1s ease-out infinite;
                 }
               }
@@ -432,12 +432,12 @@
     .card{
       .card-header,.card-body,.card-footer{
         padding:20px;
-      }     
+      }
       .card-header {
         h5{
           font-size:16px;
         }
-               
+
       }
       &.income-card {
         .card-body{
@@ -447,7 +447,7 @@
         }
       }
     }
-  } 
+  }
   .top-dealer-sec {
     .card {
       .top-dealerbox{
@@ -470,7 +470,7 @@
             font-size:15px;
           }
           p{
-            font-size:12px;           
+            font-size:12px;
           }
         }
       }
@@ -483,7 +483,7 @@
           li{
             h6 {
               font-size:14px;
-            }           
+            }
           }
         }
       }
@@ -520,15 +520,15 @@
     border-width:2px;
   }
 
-  
 
- 
 
-  
 
-  
- 
-   
+
+
+
+
+
+
 
 
 
@@ -561,7 +561,7 @@
   .target-sec {
     .card-body {
       .traget-img-sec{
-        height:328px;        
+        height:328px;
       }
     }
     .card-header {
@@ -738,7 +738,7 @@
   }
   .top-dealer-sec {
     .card{
-      box-shadow:none !important; 
+      box-shadow:none !important;
     }
     .owl-theme {
       .owl-nav{
@@ -749,7 +749,7 @@
         }
       }
     }
-  } 
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -776,7 +776,7 @@
   .target-sec {
     .card-header {
       ul.target-list {
-        display:block;       
+        display:block;
         li{
           width:auto;
           &:nth-child(n+2){
@@ -812,7 +812,7 @@
           left:23px;
         }
       }
-     }   
+     }
   }
   .activity-timeline {
     .media {
@@ -823,7 +823,7 @@
   }
 
 
-  
+
 
 }
 

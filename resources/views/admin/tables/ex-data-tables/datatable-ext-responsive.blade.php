@@ -21,7 +21,7 @@
 	        <div class="col-sm-12">
 	            <div class="card">
 	                <div class="card-body">
-	                    <div class="dt-ext table-responsive">
+	                    <div class="dt-ext">
 	                        <table class="display" id="responsive">
 	                            <thead>
 	                                <tr>
